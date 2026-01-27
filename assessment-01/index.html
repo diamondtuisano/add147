@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding JavaScript to HTML</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        function myFunction() {
+            document.getElementById("diamond").innerHTML = "Changed from a function in the Head Section."
+        }
+    </script>
+    <script src="scripts/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Adding JavaScript to HTML</h1>
+    </header>
+    <main>
+
+        <button type="button" onclick="myFunction()">call function in Head Section</button>
+
+        <p id="diamond">
+            This paragraph is my answer for 5.Text 2.
+        </p>
+        <button type="button" onclick='document.getElementById("diamond").innerHTML 
+        = "Great Scott! JS works"'>click to change text directly above!</button>
+        
+        <button type="button" onclick="myFunction2()">external script</button>
+
+        <button type="button" onclick="myFunction4()">text color</button>
+
+        <div class="buttons">
+            <button onclick="document.getElementById('food').src='images/pie.jpg'">pie</button>
+            <button onclick="document.getElementById('food').src='images/piccata.jpg'">piccata</button>
+            <button onclick="document.getElementById('food').src='images/pancake.jpg'">pancake</button>
+        </div>
+
+        <img src="images/pie.jpg" alt="pie" id="food" class="center">
+        <div class="buttons">
+            <button onclick="myFunction3()">image width</button>
+            <button onclick="document.getElementById('food').style.display='block'">show</button>
+            <button onclick="document.getElementById('food').style.display='none'">hide</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;2026 Diamond Tuisano</p>
+    </footer>
+</body>
+</html>
