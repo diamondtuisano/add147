@@ -1,0 +1,35 @@
+{
+    "uploadOnSave": true,
+    "autoDelete": true,
+    "checkGitignore": false,
+    "activeTargets": [
+        "My FTP"
+    ],
+    "concurrency": 5,
+    "ignore": [
+        ".git/**/*",
+        ".vscode/**/*"
+    ],
+    "include": [],
+    "targets": [{
+            "name": "My FTP",
+            "type": "ftp",
+            "host": "dtuisano2.mccweb.net",
+            "port": 21,
+            "user": "dtuisano2",
+            "password": "ADD147u01s2026",
+            "dir": "/public_html"
+        },
+        {
+            "name": "My SFTP",
+            "type": "sftp",
+            "host": "dtuisano2.mccweb.net",
+            "port": 22,
+            "user": "dtuisano2",
+            "password": "ADD147u01s2026",
+            "dir": "/public_html",
+            "privateKey": null,
+            "passphrase": null
+        }
+    ]
+}

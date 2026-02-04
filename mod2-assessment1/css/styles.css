@@ -1,0 +1,101 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:auto;
+    padding: 2px;
+    background-color:rgb(19, 85, 135);
+}
+
+header{
+    background-color: #07103c;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    padding: 10px;
+}
+
+.container{
+    max-width:fit-content;
+    margin:20px auto;
+    border-radius: 10px;
+}
+
+.customer-info{
+    margin-bottom: 40px;
+}
+
+.customer-info label{
+    font-weight:bold;
+    margin-right:10px;
+    color:white;
+}
+
+.customer-info input{
+    padding: 10px;
+    width:fit-content;
+    border: 2px solid black;
+    border-radius:4px;
+}
+
+.menu-section{
+    margin-bottom:30px;
+    padding:20px;
+    background-color:#d1dadc;
+    border-radius: 5px;
+}
+
+.menu-section h2{
+    color:rgb(158, 120, 72);
+    border-bottom: 2px;
+    padding-bottom: 10px;
+}
+
+.item {
+    margin:20px 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.item label{
+    flex:auto;
+}
+
+.item input{
+    padding: 10px;
+    width:fit-content;
+    border: 2px;
+    border-radius:4px;
+}
+
+.bottom {
+    text-align:center;
+    margin-top:20px;
+}
+
+button {
+    background-color:rgb(158, 120, 72);
+    color:rgb(255, 255, 255);
+    padding: 10px 20px;
+    border:none;
+    border-radius:5px;
+    font-size:15px;
+}
+
+button:hover {
+    background-color:rgb(115, 58, 38);
+}
+
+#receipt-section, h3, p {
+    margin-top:30px;
+    padding:15px;
+    background-color:#ffffff;
+    border-radius:fit-content;
+    border:fit-content;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background-color:#07103c;
+    color:rgb(254, 254, 254);
+    margin-top:30px;
+}

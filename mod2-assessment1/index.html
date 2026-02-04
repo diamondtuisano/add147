@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/my_script.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Simple Menu</title>
+</head>
+
+<body>
+    <header>
+        <h1>Diamond's Diner</h1>
+    </header>
+    <main class="container">
+        <form>
+            <div class="customer-info">
+                <label for="customerName">Customer: </label>
+                <input type="text" id="customerName" name="customerName">
+            </div>
+
+            <div class="menu-section">
+                <h2>Drinks</h2>
+                <div class="item">
+                    <label for="water">Water ($2.00)</label>
+                    <input type="number" id="water" value="0">
+                </div>
+                <div class="item">
+                    <label for="icedTea">Iced Tea ($2.50)</label>
+                    <input type="number" id="icedTea" value="0">
+                </div>
+                <div class="item">
+                    <label for="lemonade">Lemonade ($2.25)</label>
+                    <input type="number" id="lemonade" value="0">
+                </div>
+                <div class="item">
+                    <label for="coke">Coke ($3.00)</label>
+                    <input type="number" id="coke" value="0">
+                </div>
+                <div class="item">
+                    <label for="coffee">Coffee ($4.00)</label>
+                    <input type="number" id="coffee" value="0">
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <h2>Sandwiches</h2>
+                <div class="item">
+                    <label for="hotdog">Hot Dog ($6.00)</label>
+                    <input type="number" id="hotdog" value="0">
+                </div>
+                <div class="item">
+                    <label for="burger">Burger ($7.00)</label>
+                    <input type="number" id="burger" value="0">
+                </div>
+                <div class="item">
+                    <label for="blt">BLT ($8.50)</label>
+                    <input type="number" id="blt" value="0">
+                </div>
+                <div class="item">
+                    <label for="grilledcheese">Grilled Cheese ($6.50)</label>
+                    <input type="number" id="grilledcheese" value="0">
+                </div>
+                <div class="item">
+                    <label for="cheeseburger">Cheeseburger ($7.50)</label>
+                    <input type="number" id="cheeseburger" value="0">
+                </div>
+            </div>
+
+            <div class="menu-section">
+                <h2>Desserts & Sides</h2>
+                <div class="item">
+                    <label for="fries">Fries ($3.00)</label>
+                    <input type="number" id="fries" value="0">
+                </div>
+                <div class="item">
+                    <label for="chips">Chips ($2.75)</label>
+                    <input type="number" id="chips" value="0">
+                </div>
+                <div class="item">
+                    <label for="fruit">Fruit ($4.00)</label>
+                    <input type="number" id="fruit" value="0">
+                </div>
+                <div class="item">
+                    <label for="icecream">Ice Cream ($3.75)</label>
+                    <input type="number" id="icecream" value="0">
+                </div>
+                <div class="item">
+                    <label for="salad">Salad ($4.50)</label>
+                    <input type="number" id="salad" value="0">
+                </div>
+            </div>
+
+            <div class="bottom">
+                <button type="button" onclick="calculateTotal()">Order</button>
+
+                <div id="receipt-section">
+                    <h3>Receipt</h3>
+                    <p id ="receipt"></p>
+                    <p id ="drinks-total"></p>
+                    <p id ="sandwiches-total"></p>
+                    <p id ="dessert-total"></p>
+                    <p id ="totalCost"></p>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>Diamond Tuisano</footer>
+</body>
+</html>
