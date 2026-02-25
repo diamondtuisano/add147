@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Variables and Math</title>
+</head>
+
+<body onload="start()">
+
+    <div class="container">
+        <header>
+            <h1>Hot & Cold Guessing Game</h1>
+            <h2>Hot = +/- 5 | Warm = +/- 20 | Lukewarm = +/- 50 | Chilly = +/- 100 | Ice cold > 100</h2>
+        </header>
+        <main>
+            <h3>Pick a number between 1 and 1000!</h3>
+
+            <form>
+                <label for="guess">Guess a number: </label>
+                <input type="text" id="guess" width=5>
+                <button type='button' id="submit">Submit</button>
+
+                <button type='button' onclick="alert('The answer is: ' + randomNum)">Show answer</button>
+            </form>
+
+                <ul id="history"></ul>
+                
+        </main>
+        <footer>&copy; 2026 Diamond Tuisano </footer>
+    </div>
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>

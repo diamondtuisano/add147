@@ -1,0 +1,47 @@
+header{
+    background-color: #b11616;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    padding: 10px;
+}
+
+h1{
+    text-align:center;
+    font-family:monospace;
+    font-size: 40px;
+}
+
+h2, h3, p, footer{
+    font-size: 20px;
+    text-align:center;
+    font-family:monospace;
+}
+
+form {
+    text-align:center;
+    font-family:monospace;
+    padding: 20px;;
+    font-size: 15px;
+}
+
+.buttons {
+    width: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+button {
+    color:#b11616;
+    border: 2px rgb(255, 255, 255);
+    text-align:center;
+}
+
+button:hover {
+    color:rgb(255, 255, 255);
+    background-color:#b11616;
+}
+
+#history {
+    text-align:center;
+    font-family:monospace;
+}
