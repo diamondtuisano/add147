@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Midterm Progress</title>
+</head>
+
+<body onload="myForm()"> 
+    <div class="container">
+        <header>
+            <h1>Management Analysts</h1>
+        </header>
+        <main>
+            <!--img of management analysts-->
+            <img src="../midterm-progress2/images/managementanalyst.jpg" alt="" width="200" height="200">
+            <h2>Quick Summary</h2>
+                <p id="summary"></p>
+                    <h3>Quick Check: Could you be a Management Analyst?</h3>
+                <p id="q1"></p>
+                    <form>
+                        <input type="radio" id="q1-yes" name="improving" value="Yes">
+                        <label for="q1-yes">Yes</label><br>
+                        <input type="radio" id="q1-no" name="improving" value="No">
+                        <label for="q1-no">No</label><br>                        
+                    </form>
+
+                <p id="q2"></p>
+                    <form>
+                        <input type="radio" id="q2-yes" name="degree" value="Yes">
+                        <label for="q2-yes">Yes</label><br>
+                        <input type="radio" id="q2-no" name="degree" value="No">
+                        <label for="q2-no">No</label><br>                        
+                    </form>
+                    
+                <p id="q3"></p>
+                    <form>
+                        <input type="radio" id="q3-yes" name="work" value="Yes">
+                        <label for="q3-yes">Yes</label><br>
+                        <input type="radio" id="q3-no" name="work" value="No">
+                        <label for="q3-no">No</label><br>                        
+                    </form>
+
+                <button type=button onclick="comparisonFunction()">Submit</button>
+
+                <p id="result"></p>
+
+            <h2>Pay</h2>
+                <p id="median-wage"></p>
+                <p id="pay"></p>
+                    <h4>References</h4>
+                    <p id="references"></p>
+        </main>
+        <footer>&copy; 2026 Diamond Tuisano </footer>
+    </div>
+    <script src="scripts/midtermplan2.js"></script>
+</body>
+</html>
