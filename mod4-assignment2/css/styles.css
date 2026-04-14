@@ -1,0 +1,23 @@
+h1,h2,p,footer, #hide, #show, #fadeIn, #slide {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    display:block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius:5px;
+}
+
+#img1 {
+    display:block;
+    margin:5px;
+    width:5px 5px;
+    padding:20px;
+}
+
+/*set display settings to none to use fadeIn + slide methods since they need to be invisible first*/
+#img2, #img3, #img4, #img5 {
+    display:none;
+    width:5px 5px;
+    margin:5px;
+    padding: 20px;
+}

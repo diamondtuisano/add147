@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--1. Create a website.-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Added a link to the Gogle CDN for JQuery to head section.-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!--hide and show method-->
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("#img1").hide();
+  });
+  $("#show").click(function(){
+    $("#img1").show();
+  });
+});
+</script>
+<!--fade/fadeIn method-->
+<script>
+$(document).ready(function(){
+    $("#fadeIn").click(function(){
+        $("#img2").fadeIn();
+        $("#img3").fadeIn("slow");
+        $("#img4").fadeIn(3000);
+    });
+});
+</script>
+<!--slide/slideDown method-->
+<script>
+$(document).ready(function(){
+  $("#slide").click(function(){
+    $("#img5").slideDown("slow");
+  });
+});
+</script>
+    <title>Mod4 Assignment2</title>
+</head>
+<body>
+    <!--div1-->
+    <h1>jQuery Effects</h1>
+    <p>This is the fourth module and the second assignment. Theme: types of houses.</p>
+
+        <h2>Show/Hide</h2>
+        <!--button1 - show-->
+        <button id="show">Show</button>
+        <!--button2 - hide-->
+        <button id="hide">Hide</button>
+            <div id="img1"><img src="../mod4-assignment2/images/cottage.jpg" alt="cottage"></div>
+
+        <h2>FadeIn</h2>
+        <!--button3 - fadeIn-->
+        <button id="fadeIn">FadeIn</button>
+            <div id="img2"><img src="../mod4-assignment2/images/modern.jpg" alt="modern-brown"></div><br>
+            <div id="img3"><img src="../mod4-assignment2/images/modern2.jpg" alt="modern-white"></div><br>
+            <div id="img4"><img src="../mod4-assignment2/images/modern3.jpg" alt="modern-gray"></div><br>
+
+        <h2>SlideDown</h2>
+        <!--button4 - slideDown-->
+        <button id="slide">Slide</button>
+            <div id="img5">
+                <img src="../mod4-assignment2/images/ranch.jpg" alt="ranch">
+            </div>
+
+    <footer>&copy; 2026 Diamond Tuisano </footer>
+</body>
+</html>
