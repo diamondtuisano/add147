@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--1. Create a new website.-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--2. Add a link to the Gogle CDN for JQuery to head section-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!--5. Use the function from the JQuery Selectors page to hide paragraphs. Adjusted to #b1 since I added other buttons.-->
+<script>
+$(document).ready(function(){
+  $("#b1").click(function(){
+    $("p").hide();
+  });
+});
+</script>
+<!--7. Change the function that hides paragraphs to only be called from a specific button by giving it an ID.-->
+<script>
+$(document).ready(function(){
+  $("#b2").click(function(){
+    $("#KBAD").hide();
+  });
+});
+</script>
+<!--9. Add code that will make h2 headings disappear when clicked.-->
+<script>
+$(document).ready(function(){
+  $("#b3").click(function(){
+    $("h2").hide();
+  });
+});
+</script>
+    <title>Mod4 Assignment1</title>
+</head>
+<body>
+    <!--3. Add at least three paragraphs-->
+    <h1>JQuery Getting Started</h1>
+    <p>This is the fourth module and the first assignment.</p>
+
+        <h2>METARs</h2>
+        <p>METARs are meteorological observations taken in the last five minutes of the hour, every hour.</p>
+
+        <h2>PFJ</h2>
+        <p>The Polar Front Jet exists anywhere from 200-400mb in the atmosphere.</p>
+
+        <h2>Thunderstorms</h2>
+        <p>Thunderstorms require MILE: Moisture, Instablity, Lift, and Exhaust.</p>
+
+        <h2>Skew-T</h2>
+        <p>A Skew-T Log-P diagram is a snapshot of the atmosphere from the surface to 200mb.</p>
+
+        <!--4. Add a button that will call a function to hide paragraphs.-->
+        <button id="b1">Click me to hide paragraphs</button>
+
+        <h2>The Deep South</h2>
+        <!--6. Add a div with a an ID.-->
+        <div id="KBAD">Barksdale AFB is located in the northwest corner of Louisiana, in the city of Shreveport.</div>
+
+        <!--8. Add another button with an id that will hide your div with an ID.-->
+        <button id="b2">Click me to remove the div-id below the Deep South</button>
+
+        <!--10. Add a couple of h2 headings to demonstrate.-->
+        <h2>Some extra h2 headings</h2>
+        <h2>Some extra h2 headings</h2>
+        <h2>These headings at the bottom, as well as METARs, PFJ, Thunderstorms, Skew-T, and The Deep South shall disappear.</h2>
+
+        <button id="b3">Click me to hide h2 headings</button>
+
+    <footer>&copy; 2026 Diamond Tuisano </footer>
+</body>
+</html>
