@@ -1,0 +1,80 @@
+h1,h2, p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    display:block;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+h1, footer{
+    background-color: #5a9866;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border: solid 3px #17201c;
+    border-radius: 10px;
+    display:block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-align:center;
+}
+
+#move{
+    background:#5a9866;
+    height:150px;
+    width:150px;
+    border-radius: 10px;
+    border:solid 3px #17201c;
+    text-align:center;
+}
+
+.animate{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 10px;
+    margin:5px;
+    gap:10px;
+}
+
+.panel{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 10px;
+    margin:5px;
+    gap:10px;
+}
+
+#quote, #flip, #stop, #up, #down, #left, #right, #callback, #chaining{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 10px;
+    margin:5px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #5a9866;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border: solid 3px #17201c;
+    border-radius: 10px;
+}
+
+#quote {
+    padding: 50px;
+    display: none;
+    justify-content:center;
+    align-items:center;
+}
+
+#hide-p, #tatum{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 10px;
+    margin:5px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+}
