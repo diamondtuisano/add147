@@ -1,0 +1,10 @@
+<h2> Here is the loaded content! Courtesy of GeeksForGeeks</h2>
+<p id="p1">jQuery load() method is a simple but very powerful AJAX method. <br>
+The Load() method in jQuery helps to load data from the server and returned it to the selected element without loading the whole page. <br>
+
+<i>Syntax:</i>$(selector).load(URL, data, callback);<br>
+<i>Parameters:</i> This method accepts three parameters as mentioned above and described below:<br>
+<i>URL:</i> It is used to specify the URL which needs to load.<br>
+<i>data:</i> It is used to specify a set of query key/value pairs to send along with the request.<br>
+<i>callback:</i> It is the optional parameter which is the name of a function to be executed after the load() method is call. <br>
+</p>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../mod5-finalproject/css/styles.css">
+    <title>Final Part1</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Module 5 Final Project: JS Libraries</h1>
+            <h2>JSON - Create 5 records in JSON format with 4 fields</h4>
+                <h3><i>Below is a list of 5 tv shows with the 4 fields of 
+                    title, main character, network or streaming service, and start date, 
+                    stored in a JSON-formatted string, parsed using JSON.parse() to convert to a JS object,
+                    rendered using a forEach loop, and displayed using inner.HTML.</i></h3>
+                <p id="part-1"></p>
+                <p> Sources: https://www.w3schools.com/js/js_json.asp, https://emojidb.org/streaming-emojis</p>
+
+            <h2>jQuery 1 - Make a jQuery Animation</h2>
+                <h3><i>Below is an image that moves from its starting position on the left, to the center, and right side of the page.
+                    Using the animate() method, and .click function, with a 300px by 400px blue block and white border image, it is set to "slow",
+                    traveling -=/+= 100px using CSS marginLeft.</i></h3>
+                    <p>Move the blue block by clicking the left and right buttons.</p>
+                    <div class="animate">
+                        <button id="left">Left</button>
+                        <button id="right">Right</button>
+                    </div>
+                    <div id="move"></div>
+                <p> Source: https://www.w3schools.com/Jquery/jquery_animate.asp</p>
+
+            <h2>jQuery 2 - Use jQuery AJAX to display the content of a text file. </h2>
+                <h3><i>Below is a button, that, when clicked, shows a text file. Using the jQuery AJAX load() method, it takes
+                data from the text file jQuery.txt, and displays the returned data into the div id element (named "ajax") onto the h2 below.</i></h3>
+                <p>Click the button 'Load Content' to display the text file contents of jQuery2.txt.</p>
+            <div id="ajax"><h2>Change me!</h2></div>
+                <button id="display">Load Content</button>
+            <p> Sources: https://www.w3schools.com/Jquery/jquery_ajax_load.asp, 
+                https://www.w3schools.com/Jquery/tryit.asp?filename=tryjquery_ajax_load,
+                https://www.geeksforgeeks.org/jquery/jquery-load-method/</p>
+
+        <script src="../mod5-finalproject/scripts/scripts.js"></script>
+        
+        <footer>&copy; 2026 Diamond Tuisano</footer>
+    </div>
+</body>
+</html>
