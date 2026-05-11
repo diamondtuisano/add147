@@ -23,14 +23,12 @@ document.getElementById("part-1").innerHTML = info;
 //Animation + AJAX
 $(document).ready(function() {
 
-    $("#left").click(function() {
-        $("#move").animate({
-            marginLeft: "-=100px"}, "slow")
+    $("#show").click(function() {
+        $("#animate").animate({
+            left: "30%"}, 
+            "slow")
     });
-    $("#right").click(function() {
-        $("#move").animate({
-            marginLeft: "+=100px"}, "slow")
-    });
+    
     $("#display").click(function() {
         $("#ajax").load("jQuery2.txt");
     });
